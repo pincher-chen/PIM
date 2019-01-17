@@ -1,5 +1,7 @@
 # PIM
-Polarizable ion model force field development
+Polarizable ion model force field development.
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+$$x=\frac{-b\[m\sqrt{b^2-4ac}{2a}}$$
 
 # Related work
 ## Thole-Applequist model
