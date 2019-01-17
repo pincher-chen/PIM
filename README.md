@@ -7,6 +7,8 @@ $$V^{total}=V^{charge} + V^{dispersion} + V^{repulsion} + V^{polarization} $$
 
 The first term corresonds to the electrostatic interaction between two charges:
 $$V^{charge}=\sum_{i<j}(\frac{q^iq^j}{r^{ij}}) $$
+The second term corresponds to dispersion component due to the instantaneous correlations of density fluctuations bettween the electronic clouds, which includes dipole-dipole and dipole-quadrupole terms:
+$$V^dispersion=-\sum_{i<j}[f_6^{ij}] $$
 
 # Related work
 ## Thole-Applequist model
