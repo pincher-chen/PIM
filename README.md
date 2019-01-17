@@ -2,7 +2,7 @@
 Polarizable ion model force field development.   
 **Note:** The following formula can be viewed normally on chrome by installing MathJax Plugin for Github
 
-
+The potential is best described as the sum of four different components: charge-charge, dispersion, overlap repulsion and polarization:
 $$V^{total}=V^{charge} + V^{dispersion} + V^{repulsion} + V^{polarization} $$
 
 # Related work
