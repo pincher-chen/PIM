@@ -5,8 +5,8 @@ Polarizable ion model force field development.
 The potential of ionic interaction energy is best described as the sum of four different components: charge-charge, dispersion, overlap repulsion and polarization:
 $$V^{total}=V^{charge} + V^{dispersion} + V^{repulsion} + V^{polarization} $$
 
-The first term corresonds to the electrostatic interation between two charges:
-$$V^{charge}=\sum_{i<j}\frac{q^iq^j}{r^{ij}} $$
+The first term corresonds to the electrostatic interaction between two charges:
+$$V^{charge}=\sum_{i<j}(\frac{q^iq^j}{r^{ij}}) $$
 
 # Related work
 ## Thole-Applequist model
