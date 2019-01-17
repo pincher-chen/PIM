@@ -1,7 +1,7 @@
 # PIM
 Polarizable ion model force field development.
 
-$$x=\frac{-b\[pm\sqrt{b^2-4ac}{2a}}$$
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 # Related work
 ## Thole-Applequist model
