@@ -6,7 +6,7 @@ The potential of ionic interaction energy is best described as the sum of four d
 $$V^{total}=V^{charge} + V^{dispersion} + V^{repulsion} + V^{polarization} $$
 
 The first term corresonds to the electrostatic interation between two charges:
-$$V^{charge}=\frac{q^i*q^j}{r^{ij}} $$
+$$V^{charge}=\sum\frac{q^i*q^j}{r^{ij}} $$
 
 # Related work
 ## Thole-Applequist model
