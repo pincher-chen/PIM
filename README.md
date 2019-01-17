@@ -12,7 +12,7 @@ $$V^{dispersion}=-\sum_{i<j}[f_6^{ij}\frac{C_6^{ij}}{(r_ij)^6}+f_8^{ij}\frac{C_8
 Where $C^{ij}_6$ and $C^{ij}_8$ are the dipole-dipole and dipole-quadrupole dispersion coefficients and $r_ij$ is the distance between the two atoms i and j. The Tang-Toennies damping function $f^{ij}_n$ is used to currect the shot-range interaction as：
 
 $$f_n^{ij}(r_{ij})$$
-$$ = 1 - e^{-b^{ij}_n r_{ij}}$$
+$$ = 1 - e^{-b_n^{ij} r_{ij}}$$
 \sum_{k=0}^n\frac{(b^}_n{ijr_{ij})^k}{k!}$$
 
 
