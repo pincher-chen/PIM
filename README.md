@@ -11,8 +11,7 @@ The second term corresponds to dispersion component due to the instantaneous cor
 $$V^{dispersion}=-\sum_{i<j}[f_6^{ij}\frac{C_6^{ij}}{(r_ij)^6}+f_8^{ij}\frac{C_8^{ij}}{(r_ij)^8}] $$
 Where $C^{ij}_6$ and $C^{ij}_8$ are the dipole-dipole and dipole-quadrupole dispersion coefficients and $r_ij$ is the distance between the two atoms i and j. The Tang-Toennies damping function $f^{ij}_n$ is used to currect the shot-range interaction as：
 
-$$f_n^{ij}$$
-$$(r_{ij})$$
+$$f_n^{ij}(r_{ij})$$
 $$= 1 - e^{-b^{ij}_nr_{ij}}\sum_{k=0}^n\frac{(b^{ij}_nr_{ij})^k}{k!}$$
 
 
