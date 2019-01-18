@@ -21,7 +21,7 @@ Where $A^{ij}$ and $B^{ij}$ are two parameters.
 
 Finally, the last term corresponds to the polarization, composted of three contributions: charge-dipole and dipole-dipole interactions a well as the energy cost for deforming the electronic cloud of the atom.
 
-$$V^{polarization} = \sum_{i,j} - (q_{i} u_{j,a} f^{ij}_{4} (r_{ij}) - q_{j} u_{i,a} f^{ji}_{4}(r_{ij}) t) - \sum_{i,j} u_{i,a} u_{j,b} T_{ab}^{(2)} (r_{ij}) + \sum_{i} \frac {1}{2 a_{i}} |u_{i}^2|$$
+$$V^{polarization} = \sum_{i,j} - (q_{i} u_{j,a} f_{4}^{ij} (r_{ij}) - q_{j} u_{i,a} f_{4}^{ji}(r_{ij}) t) - \sum_{i,j} u_{i,a} u_{j,b} T_{ab}^{(2)} (r_{ij}) + \sum_{i} \frac {1}{2 a_{i}} |u_{i}^2|$$
 
 
 # Related work
