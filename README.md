@@ -33,7 +33,7 @@ $$f_n^{ij} (r_{ij}) = 1 - c^{ij} e^{-d^{ij} r_{ij}} \sum_{(k=0)}^{n} {(d^{ij} r_
 The parameters $d^{ij}$ determine the range at which the overlap of the charge densities affects the induced dipoles, and the parameters $c^{ij}$ determine the strength of the ion response to this effect.  It is important to note that anion-anion damping terms have been taken into account. The additoin of anion-anion damping terms was found to greatly improve the ability to match the first-principles data.
 
 With thest simplifications, the potential now includes only three additional degrees of freedom per ion, associated with the induced dipoles, which are calculated in a single minimizaion procedure:
-$$(\frac {aV_{PIM}^{polarizaion} } {a u_{a}^{i}})_{\left{u_a^N\right}} = 0$$
+$$(\frac {aV_{PIM}^{polarizaion} } {a u_{a}^{i}})_{u_a^N} = 0$$
 
 # Related work
 ## Thole-Applequist model
