@@ -27,6 +27,11 @@ Here, $a_{i}$ is the polarizability of ion i, $u_{i}$ are the dipoles and $T^(1)
 $$T_{a}^{(1)} (r) = -r_{a} / r^{3} $$
 $$T_{ab}^{(2)} (r) = (3 r_{a} r_{b} - r^{2} delta_{ab}^{2})/r^{5}$$
 
+The instantaneous values of these moments are obtained by minimizaion of this expression with respect to the dipoles of all ions at each MD time step. This ensures that we regain the condition that the dipole induced by an electrical field E is $aE$ and that the dipole values are mutually consistent. The short-rnage indection effects on the dipoles are taken into account by the Tang-Toennies damping functions,
+$$f_n^{ij} (r_{ij}) = 1 - c^{ij} e^{-d^{ij} r_{ij}} \sum_{(k=0)}^{n} {(d^{ij} r_{ij})^k} {K!}$$
+
+The parameters $d^{ij}$ determine the range at which the overlap of the charge densities affects the induced dipoles, and the parameters c^{ij} determine the strength of the ion response to this effect.  It is important to note that anion-anion damping terms have been taken into account. The additoin of anion-anion damping terms was found to greatly improve the ability to match the first-principles data.
+
 # Related work
 ## Thole-Applequist model
 This model treats the system in terms of site (atomic) point dipoles that interact via many-body polarization equations, which is suitable for the calculating  of the atom ion interaction in polyatomic molecules.
