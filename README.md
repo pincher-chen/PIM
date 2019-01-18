@@ -17,6 +17,10 @@ The third term corresponds to the short-range repulsion, descriped by a simple e
 
 $$V^{repulsion}=\sum_{i<j}A^{ij}e^{-B^{ij}r_{ij}}$$
 
+Where $A^{ij}$ and $B^{ij}$ are two parameters.
+
+Finally, the last term corresponds to the polarization, composted of three contributions: charge-dipole and dipole-dipole interactions a well as the energy cost for deforming the electronic cloud of the atom.
+
 
 # Related work
 ## Thole-Applequist model
