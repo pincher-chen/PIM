@@ -13,6 +13,10 @@ Where $C^{ij}_6$ and $C^{ij}_8$ are the dipole-dipole and dipole-quadrupole disp
 
 $$f_n^{ij}(r_{ij}) = 1 - e^{-b_n^{ij} r_{ij}} \sum_{k=0}^{n} \frac {(b_n^{ij} r_{ij} )^k} {k!}$$
 
+The third term corresponds to the short-range repulsion, descriped by a simple exponential from
+
+$$V^{repulsion}=\sum_{i<j}A^{ij}e^{-B^{ij}r_{ij}}$$
+
 
 # Related work
 ## Thole-Applequist model
