@@ -57,10 +57,10 @@ $$\vec{\mu_i} = \alpha_{i} \vec{E_i^{static}}$$
 $$\vec{\mu_{mol}} = \sum_{i} \alpha_{i} \vec{E_i^{static}}$$
 where $\alpha_{i}$ is the 3 × 3 site polarizability tensor and $E_i^{static}$ stat i is the electrostatic field at the site. In the Thole-Applequist model the system is treated as a collection of N dipoles along with a dipole field tensor $T_{ij}^{\alpha \beta}$ which contains the complete set of induced dipole-dipole interactions. This dipole field tensor, when contracted with the system dipoles, yields the (many-body) induced-dipole contribution to the electric field - this contribution is denoted here as $\vec{E^{induced}}$ Since the dipole field tensor (by construction) contains the entire induction contribution, we can assign a scalar point polarizability $\alpha_{i}^{o}$, to each site rather than a polarizability tensor:
 $$\alpha_{i} \vec{E_i^{static}} = \alpha_{i}^{o} ( \vec{E_i^{static}} + \vec{E_i^{inducted}})$$
-$$= \alpha_{i}^{o} ( \vec{E_i^{static}} - T_{ij}^{\alpha \beta \vec \mu_{j}}) $$
+$$= \alpha_{i}^{o} ( \vec{E_i^{static}} - T_{ij}^{\alpha \beta } \vec \mu_{j}) $$
 
 Where the $T_{ij}^{\alpha \beta \vec \mu_{j}}$ can be derived from first principles as:
-$$T_{ij}^{\alpha \beta \vec \mu_{j}} = \Delta_{\alpha} \Delta_{\beta} \frac {1} {r_{ij}}$$
+$$T_{ij}^{\alpha \beta} \vec \mu_{j} = \Delta_{\alpha} \Delta_{\beta} \frac {1} {r_{ij}}$$
 $$ = \frac {\delta_{\alpha \beta}} {r_{ij}^{3}} - \frac {3 x^{\alpha} x{\beta}} {r_{ij}^{5}} $$
 
 **references:**  
