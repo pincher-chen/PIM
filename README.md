@@ -60,8 +60,8 @@ $$\alpha_{i} \vec{E_i^{static}} = \alpha_{i}^{o} ( \vec{E_i^{static}} + \vec{E_i
 $$= \alpha_{i}^{o} ( \vec{E_i^{static}} - T_{ij}^{\alpha \beta \vec \mu_{j}}) $$
 
 Where the $T_{ij}^{\alpha \beta \vec \mu_{j}}$ can be derived from first principles as:
-$$T_{ij}^{\alpha \beta \vec \mu_{j}} = \triangledown_{\alpha} \triangledown_{\beta} \frac {1} {r_{ij}}$$
-$$ = \frac {\delta_{\alpha \beta}} {r_{ij}^{3}} - \frac {3 x^{\alpha} x{\belta}} {r_{ij}^{5}} $$
+$$T_{ij}^{\alpha \beta \vec \mu_{j}} = \Delta_{\alpha} \Delta_{\beta} \frac {1} {r_{ij}}$$
+$$ = \frac {\delta_{\alpha \beta}} {r_{ij}^{3}} - \frac {3 x^{\alpha} x{\beta}} {r_{ij}^{5}} $$
 
 **references:**  
 1. [Atom dipole interaction model for molecular polarizability. Application to polyatomic molecules and determination of atom polarizabilities - 1972](https://pubs.acs.org/doi/abs/10.1021/ja00764a010?journalCode=jacsat)  
