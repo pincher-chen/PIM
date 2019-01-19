@@ -47,6 +47,11 @@ $$E = 4\epsilon [(\frac {\sigma} {r})^{12} - (\frac {\sigma} {r})^6]$$
 The second term corresonds to Coulombic pairwise interaction, given by
 $$E = \frac {C q_i q_j} {\epsilon r}$$
 
+The third term corresonds to polarization, Consider a static electric field applied to a molecule. The induced dipole on
+this molecule will be equal to
+$$\vec\mu$$
+
+
 **references:**  
 1. [Atom dipole interaction model for molecular polarizability. Application to polyatomic molecules and determination of atom polarizabilities - 1972](https://pubs.acs.org/doi/abs/10.1021/ja00764a010?journalCode=jacsat)  
 2. [Molecular polarizabilities calculated with a modified dipole interaction - 1981](https://www.sciencedirect.com/science/article/abs/pii/0301010481851762)  
