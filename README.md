@@ -2,7 +2,7 @@
 Polarizable ion model force field development.   
 **Note:** The following formula can be viewed normally on chrome by installing MathJax Plugin for Github
 
-The potential of ionic interaction energy is best described as the sum of four different components: charge-charge, dispersion, overlap repulsion and polarization:
+The potential of ionic interaction energy is best described as the sum of four different components: charge-charge, dispersion, overlap repulsion and polarization (This model has been deleloped in CP2K):
 $$V^{total}=V^{charge} + V^{dispersion} + V^{repulsion} + V^{polarization} $$
 
 The first term corresonds to the electrostatic interaction between two charges:
@@ -40,7 +40,7 @@ $$(\frac {aV_{PIM}^{polarizaion} } {a u_{a}^{i}})_{u_a^N} = 0$$
 ## Thole-Applequist model
 This model treats the system in terms of site (atomic) point dipoles that interact via many-body polarization equations, which is suitable for the calculating  of the atom ion interaction in polyatomic molecules.
 
-The potential of Thole-Applequist model is described as the sum of four different components: repulsion，charge-charge  and polarization:
+The potential of Thole-Applequist model is described as the sum of four different components: repulsion，charge-charge  and polarization ((This model has been deleloped in LAMMPS)):
 $$V^{total}= V^{repulsion} + V^{charge} + V^{polarization} $$
 The first term corresonds to the standard 12/6 Lennard-Jones potential, given by
 $$E = 4\epsilon [(\frac {\sigma} {r})^{12} - (\frac {\sigma} {r})^6]$$
