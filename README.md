@@ -35,6 +35,7 @@ The parameters $d^{ij}$ determine the range at which the overlap of the charge d
 With thest simplifications, the potential now includes only three additional degrees of freedom per ion, associated with the induced dipoles, which are calculated in a single minimizaion procedure:
 $$(\frac {aV_{PIM}^{polarizaion} } {a u_{a}^{i}})_{u_a^N} = 0$$
 
+
 # Related work
 ## Thole-Applequist model
 This model treats the system in terms of site (atomic) point dipoles that interact via many-body polarization equations, which is suitable for the calculating  of the atom ion interaction in polyatomic molecules.
@@ -49,7 +50,9 @@ $$E = \frac {C q_i q_j} {\epsilon r}$$
 
 The third term corresonds to polarization, Consider a static electric field applied to a molecule. The induced dipole on
 this molecule will be equal to
-$$\vec{\mu} = \alpha \vec{E^{static}}$$
+$$\vec{\mu} = \alpha_{mol} \vec{E^{static}}$$
+
+where $\alpha_{mol} $ is the 3 × 3 molecular polarizability tensor unique to that molecule. We now consider the molecular dipole as being a sum of atomic point dipoles, one for each atom of the molecule. If we label each atomic point dipole vector $\vec{\mu_{i}}$ then we have
 
 
 **references:**  
