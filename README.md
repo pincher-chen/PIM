@@ -53,7 +53,9 @@ this molecule will be equal to
 $$\vec{\mu} = \alpha_{mol} \vec{E^{static}}$$
 
 where $\alpha_{mol} $ is the 3 × 3 molecular polarizability tensor unique to that molecule. We now consider the molecular dipole as being a sum of atomic point dipoles, one for each atom of the molecule. If we label each atomic point dipole vector $\vec{\mu_{i}}$ then we have
-
+$$\vec{\mu_i} = \alpha_{i} \vec{E_i^{static}}$$
+$$\vec{\mu_{mol}} = \sum_{i} \alpha_{i} \vec{E_i^{static}}$$
+where $\alpha_{i}$ is the 3 × 3 site polarizability tensor and $E_i^{static}$ stat i is the electrostatic field at the site.
 
 **references:**  
 1. [Atom dipole interaction model for molecular polarizability. Application to polyatomic molecules and determination of atom polarizabilities - 1972](https://pubs.acs.org/doi/abs/10.1021/ja00764a010?journalCode=jacsat)  
