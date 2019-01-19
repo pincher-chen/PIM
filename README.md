@@ -39,6 +39,11 @@ $$(\frac {aV_{PIM}^{polarizaion} } {a u_{a}^{i}})_{u_a^N} = 0$$
 ## Thole-Applequist model
 This model treats the system in terms of site (atomic) point dipoles that interact via many-body polarization equations, which is suitable for the calculating  of the atom ion interaction in polyatomic molecules.
 
+The potential of Thole-Applequist model is described as the sum of four different components: repulsion，charge-charge  and polarization:
+$$V^{total}= V^{repulsion} + V^{charge} + V^{polarization} $$
+The first term corresonds to the standard 12/6 Lennard-Jones potential, given by
+$$E = 4\epsilon $$
+
 **references:**  
 1. [Atom dipole interaction model for molecular polarizability. Application to polyatomic molecules and determination of atom polarizabilities - 1972](https://pubs.acs.org/doi/abs/10.1021/ja00764a010?journalCode=jacsat)  
 2. [Molecular polarizabilities calculated with a modified dipole interaction - 1981](https://www.sciencedirect.com/science/article/abs/pii/0301010481851762)  
