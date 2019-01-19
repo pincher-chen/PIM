@@ -42,7 +42,10 @@ This model treats the system in terms of site (atomic) point dipoles that intera
 The potential of Thole-Applequist model is described as the sum of four different components: repulsion，charge-charge  and polarization:
 $$V^{total}= V^{repulsion} + V^{charge} + V^{polarization} $$
 The first term corresonds to the standard 12/6 Lennard-Jones potential, given by
-$$E = 4\epsilon [(\frac {\sigma} {r})^12 - (\frac {\sigma} {r})^6]$$
+$$E = 4\epsilon [(\frac {\sigma} {r})^{12} - (\frac {\sigma} {r})^6]$$
+
+The second term corresonds to Coulombic pairwise interaction, given by
+$$E = \frac {C q_i q_j} {\epsilon r}$$
 
 **references:**  
 1. [Atom dipole interaction model for molecular polarizability. Application to polyatomic molecules and determination of atom polarizabilities - 1972](https://pubs.acs.org/doi/abs/10.1021/ja00764a010?journalCode=jacsat)  
