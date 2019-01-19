@@ -49,7 +49,7 @@ $$E = \frac {C q_i q_j} {\epsilon r}$$
 
 The third term corresonds to polarization, Consider a static electric field applied to a molecule. The induced dipole on
 this molecule will be equal to
-$$\vec{\mu} = \alpha \vec{E^static}$$
+$$\vec{\mu} = \alpha \vec{E^{static}}$$
 
 
 **references:**  
