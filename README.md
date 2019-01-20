@@ -23,7 +23,7 @@ Finally, the last term corresponds to the polarization, composted of three contr
 
 $$V^{polarization} = \sum_{i,j} - (q_{i} u_{j,a} f_{4}^{ij} (r_{ij}) - q_{j} u_{i,a} f_{4}^{ji}(r_{ij}) t) T_{a}^{(1)} (r_{ij}) - \sum_{i,j} u_{i,a} u_{j,b} T_{ab}^{(2)} (r_{ij}) + \sum_{i} \frac {1}{2 a_{i}} |u_{i}^2|$$
 
-Here, $a_{i}$ is the polarizability of ion i, $u_{i}$ are the dipoles and $T^(1)$ and $T^(2)$ are the charge-dipole and dipole-dipole interaction tensors,
+Here, $a_{i}$ is the polarizability of ion i, $u_{i}$ are the dipoles and $T^{(1)}$ and $T^{(2)}$ are the charge-dipole and dipole-dipole interaction tensors,
 $$T_{a}^{(1)} (r) = -r_{a} / r^{3} $$
 $$T_{ab}^{(2)} (r) = (3 r_{a} r_{b} - r^{2} delta_{ab}^{2})/r^{5}$$
 
