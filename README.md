@@ -63,8 +63,8 @@ Where the $T_{ij}^{\alpha \beta \vec \mu_{j}}$ can be derived from first princip
 $$T_{ij}^{\alpha \beta} \vec \mu_{j} = \Delta_{\alpha} \Delta_{\beta} \frac {1} {r_{ij}}$$
 $$ = \frac {\delta_{\alpha \beta}} {r_{ij}^{3}} - \frac {3 x^{\alpha} x{\beta}} {r_{ij}^{5}} $$
 
-Where the $\vec{E^{static}$ is calculated by the Wolf summation method, given by:
-$$\vec{E^{static} = 1/2 \sum_{j \neq j} \frac {q_{i} q_{j} erfc(\alpha r_{ij})} {r_{ij}} +1/2 \sum_{j \neq j} \frac {q_{i} q_{j} erf(\alpha r_{ij})} {r_{ij}} \qquad  r \lt r_{c} $$
+Where the $\vec{E^{static}}$ is calculated by the Wolf summation method, given by:
+$$\vec{E^{static}} = 1/2 \sum_{j \neq j} \frac {q_{i} q_{j} erfc(\alpha r_{ij})} {r_{ij}} +1/2 \sum_{j \neq j} \frac {q_{i} q_{j} erf(\alpha r_{ij})} {r_{ij}} \qquad  r \lt r_{c} $$
 
 **references:**  
 1. [Atom dipole interaction model for molecular polarizability. Application to polyatomic molecules and determination of atom polarizabilities - 1972](https://pubs.acs.org/doi/abs/10.1021/ja00764a010?journalCode=jacsat)  
