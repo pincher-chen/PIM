@@ -70,4 +70,5 @@ $$\vec{E^{static}} = 1/2 \sum_{j \neq j} \frac {q_{i} q_{j} erfc(\alpha r_{ij})}
 1. [Atom dipole interaction model for molecular polarizability. Application to polyatomic molecules and determination of atom polarizabilities - 1972](https://pubs.acs.org/doi/abs/10.1021/ja00764a010?journalCode=jacsat)  
 2. [Molecular polarizabilities calculated with a modified dipole interaction - 1981](https://www.sciencedirect.com/science/article/abs/pii/0301010481851762)  
 3. [Molecular and Atomic Polarizabilities:  Thole's Model Revisited - 1998](https://pubs.acs.org/doi/abs/10.1021/jp980221f)
+4. [Exact method for the simulation of Coulombic systems by spherically truncated, pairwise r−1 summation -wolf method-1999](https://aip.scitation.org/doi/abs/10.1063/1.478738)
 
