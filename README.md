@@ -67,6 +67,7 @@ Where the $\vec{E^{static}}$ is calculated by the Wolf summation method, given b
 $$\vec{E^{static}} = 1/2 \sum_{j \neq j} \frac {q_{i} q_{j} erfc(\alpha r_{ij})} {r_{ij}} +1/2 \sum_{j \neq j} \frac {q_{i} q_{j} erf(\alpha r_{ij})} {r_{ij}} \qquad  r \lt r_{c} $$
 
 Here,  the erc() and erfc() are error-function and complementary error-function terms. 
+$$erf(\alpha r_{ij}) = \frac {2} {\pi}$$
 
 **references:**  
 1. [Atom dipole interaction model for molecular polarizability. Application to polyatomic molecules and determination of atom polarizabilities - 1972](https://pubs.acs.org/doi/abs/10.1021/ja00764a010?journalCode=jacsat)  
